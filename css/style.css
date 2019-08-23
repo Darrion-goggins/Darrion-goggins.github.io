@@ -122,6 +122,10 @@ header p{
 button{
     margin-top: 25px;
     margin-left: 25px;
+    background: lime;
+}
+button a{
+    color: #0D0D0D;
 }
 .main {
     background: #0D0D0D;
