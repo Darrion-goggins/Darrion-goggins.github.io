@@ -17,7 +17,7 @@ a{
     color: lime;
 }
 a:hover{
-    color: #8AA6BF;
+    color: lime;
     text-decoration: none;
 }
 header{
@@ -54,14 +54,9 @@ header{
 @keyframes type{
     from{width: 0;}
 }
-header ul{
-    list-style: none;
-    padding: 15px;
-    text-align: right;
-}
-header li{
-    display: inline;
-    margin-left: 15px;
+header p{
+    margin-top: 20px;
+    font-size: 30px;
 }
 button{
     margin-top: 25px;
