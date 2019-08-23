@@ -6,6 +6,7 @@
    font-family: 'VT323', monospace;  */
 body{
     font-family: 'VT323', monospace;
+    background: #0D0D0D;
 }
 span{
     animation: keystroke 2s infinite;
@@ -49,10 +50,54 @@ header{
     overflow: hidden;
     white-space: nowrap;
     width: 100%;
-    animation: type 4s steps(60, end) infinite;
+    animation: type 4s steps(60, end);
+    animation-fill-mode: forwards;
+}
+.firstline {
+    position: absolute;
+    top: 0;left: 0;
+}
+.type2{
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+}
+.type3{
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    animation: typethree 16s steps(60, end);
+}
+.type4{
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    animation: typethree 20s steps(60, end);
+}
+.type5{
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    animation: typethree 24s steps(60, end);
+}
+.computer p + p{
+    animation: typetwo 8s steps(60, end);
 }
 @keyframes type{
     from{width: 0;}
+    100%{
+        opacity: 0;
+    }
+}
+@keyframes typetwo{
+    0%{width: 0;}
+    50%{width: 0;}
+    100%{ width: 100; } 
+}
+@keyframes typethree{
+    0%{width: 0;}
+    50%{width: 0;}
+    100%{width: 100;}
 }
 header p{
     margin-top: 20px;
