@@ -1,0 +1,64 @@
+/* Dark Blue: #4C6173
+   Light Blue: #8AA6BF
+   Sky Blue: #CEE1F2
+   Gray Blue: #2D3940
+   Black: #0D0D0D
+   font-family: 'Audiowide', cursive;  */
+
+.code span{
+    animation: keystroke 2s infinite;
+}
+.hero img{
+    position: absolute;
+    z-index: 0;
+}
+a{
+    color: #8AA6BF;
+}
+a:hover{
+    color: #8AA6BF;
+    text-decoration: none;
+}
+header{
+    color: #8AA6BF;
+    background: #0D0D0D;
+    font-size: 25px;
+    position: sticky;
+    font-family: 'Audiowide', cursive;
+}
+header ul{
+    list-style: none;
+    padding: 15px;
+    text-align: right;
+}
+header li{
+    display: inline;
+    margin-left: 15px;
+}
+button{
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.main {
+    background: #0D0D0D;
+    color: #8AA6BF;
+    font-family: 'Audiowide', cursive;
+    position: relative;
+    top: 200px;
+}
+.main h2{
+    text-align: center;
+}
+.main span{
+    border-left: thick solid #CEE1F2;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+@keyframes keystroke{
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
