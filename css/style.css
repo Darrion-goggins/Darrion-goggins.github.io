@@ -5,7 +5,7 @@
    Black: #0D0D0D
    font-family: 'Audiowide', cursive;  */
 
-.code span{
+span{
     animation: keystroke 2s infinite;
 }
 .hero img{
