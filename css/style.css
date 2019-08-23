@@ -14,14 +14,14 @@ span{
     position: absolute;
 }
 a{
-    color: #2CFF00;
+    color: lime;
 }
 a:hover{
     color: #8AA6BF;
     text-decoration: none;
 }
 header{
-    color: #2CFF00;
+    color: lime;
     background: #0D0D0D;
     font-size: 25px;
     position: sticky;
@@ -29,7 +29,7 @@ header{
 }
 .screen{
     position: relative;
-    background: #8AA6BF;
+    background: silver;
     height: 600px;
     width: 990px;
     margin-left: 200px;
@@ -42,8 +42,17 @@ header{
     width: 890px;
     top: 27px;
     left: 53px;
-    color: #2CFF00;
-    font-size: 25px;
+    color: lime;
+    font-size: 45px;
+}
+.computer p{
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    animation: type 4s steps(60, end) infinite;
+}
+@keyframes type{
+    from{width: 0;}
 }
 header ul{
     list-style: none;
@@ -60,7 +69,7 @@ button{
 }
 .main {
     background: #0D0D0D;
-    color: #2CFF00;
+    color: lime;
     position: relative;
     top: 200px;
     border-top: thin solid white;
