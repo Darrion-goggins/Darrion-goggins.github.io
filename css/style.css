@@ -12,20 +12,38 @@ span{
 }
 .hero img{
     position: absolute;
-    z-index: 0;
 }
 a{
-    color: #8AA6BF;
+    color: #2CFF00;
 }
 a:hover{
     color: #8AA6BF;
     text-decoration: none;
 }
 header{
-    color: #8AA6BF;
+    color: #2CFF00;
     background: #0D0D0D;
     font-size: 25px;
     position: sticky;
+    border-bottom: thin solid white;
+}
+.screen{
+    position: relative;
+    background: #8AA6BF;
+    height: 600px;
+    width: 990px;
+    margin-left: 200px;
+    margin-top: 150px;
+}
+.computer{
+    position: absolute;
+    background: #0D0D0D;
+    height: 550px;
+    width: 890px;
+    top: 27px;
+    left: 53px;
+    color: #2CFF00;
+    font-size: 25px;
 }
 header ul{
     list-style: none;
@@ -42,9 +60,10 @@ button{
 }
 .main {
     background: #0D0D0D;
-    color: #8AA6BF;
+    color: #2CFF00;
     position: relative;
     top: 200px;
+    border-top: thin solid white;
 }
 .main h2{
     text-align: center;
