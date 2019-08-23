@@ -3,8 +3,10 @@
    Sky Blue: #CEE1F2
    Gray Blue: #2D3940
    Black: #0D0D0D
-   font-family: 'Audiowide', cursive;  */
-
+   font-family: 'VT323', monospace;  */
+body{
+    font-family: 'VT323', monospace;
+}
 span{
     animation: keystroke 2s infinite;
 }
@@ -24,7 +26,6 @@ header{
     background: #0D0D0D;
     font-size: 25px;
     position: sticky;
-    font-family: 'VT323', monospace;
 }
 header ul{
     list-style: none;
@@ -42,7 +43,6 @@ button{
 .main {
     background: #0D0D0D;
     color: #8AA6BF;
-    font-family: 'VT323', monospace;
     position: relative;
     top: 200px;
 }
