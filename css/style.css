@@ -41,7 +41,7 @@ header{
 .computer{
     position: absolute;
     background: #0D0D0D;
-    box-shadow: 0px 0px 50px lime;
+    box-shadow: 0px 0px 20px lime;
     height: 550px;
     width: 890px;
     top: 27px;
@@ -51,10 +51,13 @@ header{
     border-radius: 20px;
     animation: lighting 8s;
 }
+.computer p{
+    margin-left: 25px;
+}
 .tower{
     height: 200px;
     width: 800px;
-    background: #0D0D0D;
+    background: beige;
     position: absolute;
     margin-left: 280px;
     border: darkgray 10px solid;
@@ -104,16 +107,27 @@ header{
     overflow: hidden;
     white-space: nowrap;
     width: 100%;
-    animation: typethree 20s steps(60, end);
+    animation: typethree 18s steps(60, end);
 }
 .type5{
     overflow: hidden;
     white-space: nowrap;
     width: 100%;
-    animation: typethree 24s steps(60, end);
+    animation: typethree 22s steps(60, end);
 }
 .computer p + p{
     animation: typetwo 8s steps(60, end);
+}
+.minicomp{
+    background: #0D0D0D;
+    border: beige 5px solid;
+    border-radius: 10px;
+}
+.smallcomp{
+    background: #0D0D0D;
+    border: beige 5px solid;
+    border-radius: 10px;
+    margin-top: 20px;
 }
 @keyframes lighting{
     0%{
