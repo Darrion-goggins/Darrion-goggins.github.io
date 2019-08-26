@@ -35,6 +35,7 @@ header{
     width: 990px;
     margin-left: 200px;
     margin-top: 150px;
+    border-radius: 25px;
 }
 .computer{
     position: absolute;
@@ -46,7 +47,26 @@ header{
     left: 53px;
     color: lime;
     font-size: 45px;
+    border-radius: 20px;
     animation: lighting 8s;
+}
+.tower{
+    height: 400px;
+    width: 800px;
+    background: darkgray;
+    position: absolute;
+    margin-left: 280px;
+    border: #0D0D0D 20px solid;
+}
+.powerbutton{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background: lime;
+    margin-top: 240px;
+    text-align: center;
+    margin-left: 100px;
+    font-size: 20px;
 }
 .computer p{
     overflow: hidden;
