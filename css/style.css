@@ -3,7 +3,8 @@
    Sky Blue: #CEE1F2
    Gray Blue: #2D3940
    Black: #0D0D0D
-   font-family: 'VT323', monospace;  */
+   font-family: 'VT323', monospace;
+   computer colors: #615a59, #b5adac, #99c9c2, #7b89ab  */
 body{
     font-family: 'VT323', monospace;
     background: #0D0D0D;
@@ -51,22 +52,31 @@ header{
     animation: lighting 8s;
 }
 .tower{
-    height: 400px;
+    height: 200px;
     width: 800px;
-    background: darkgray;
+    background: #0D0D0D;
     position: absolute;
     margin-left: 280px;
-    border: #0D0D0D 20px solid;
+    border: darkgray 10px solid;
 }
 .powerbutton{
     height: 30px;
     width: 30px;
     border-radius: 50%;
-    background: lime;
-    margin-top: 240px;
+    background: darkgray;
     text-align: center;
-    margin-left: 100px;
     font-size: 20px;
+    position: absolute;
+    top: 75px; left: 105px;
+    animation: power 8s;
+    box-shadow: 0px 0px 50px lightskyblue;
+}
+.complogo{
+    position: absolute;
+    background: darkgray;
+    top: 70px; right: 80px;
+    font-size: 25px;
+    padding: 10px;
 }
 .computer p{
     overflow: hidden;
@@ -117,6 +127,11 @@ header{
     }
     100%{
         box-shadow: 0px 0px 50px lime;
+    }
+}
+@keyframes power{
+    100%{
+        box-shadow: 0px 0px 50px orange;
     }
 }
 @keyframes type{

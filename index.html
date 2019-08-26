@@ -10,6 +10,11 @@
     <title>Portfolio</title>
 </head>
 <body>
+    <script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
     <header>
         <div class="container">
             <div class="row">
@@ -22,7 +27,7 @@
                 </div>
         </div>
     </header>
-    <div class="screen">
+    <div class="screen hidden-xs">
         <div class="computer">
             <div>
                 <p class="firstline">Hello, and welcome to my portfolio<span>|</span></p>
@@ -40,31 +45,38 @@
             <!-- make a tower and give it a glow orange effect after a set amount of time -->
         </div>
     </div>
-    <div class="tower">
+    <div class="tower hidden-xs">
         <div class="powerbutton">
-            <p>|</p>
+            <p><strong>-</strong></p>
+        </div>
+        <div class="complogo">
+            <p><strong>Envision Studios &copy; 1983</strong></p>
         </div>
     </div>
     <div class="main">
         <h2 id="projects"><span>|</span> Projects</h2>
         <div class="container">
             <div class="row">
-                <div class="col-sm-3">
+                <div class="col-sm-4"></div>
+                <div class="col-sm-4 hidden-xs">
                     <h3>Pizza Project</h3>
                     <img src="media/pizzascreenshot.png" class="img-responsive" alt="">
                     <button><a href="../pizzarevised/index.html">View Project</a></button>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-4"></div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 hidden-xs">
                     <h3>White Flowers</h3>
                     <img src="media/whiteflowers.png" class="img-responsive" alt="">
                     <button><a href="../whiteflowers/index.html">View Project</a></button>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-4 col-xs-push">
                     <h3>Airbox 960 Grid</h3>
                     <img src="media/airbox.png" class="img-responsive" alt="">
                     <button><a href="../airbox/index.html">View Project</a></button>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-4 col-xs-pull">
                     <h3>Solar System Project</h3>
                     <img src="media/playground.png" class="img-responsive" alt="">
                     <button><a href="../playground/index.html">View Project</a></button>
