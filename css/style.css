@@ -35,7 +35,7 @@ header{
     height: 600px;
     width: 990px;
     margin-left: 200px;
-    margin-top: 150px;
+    margin-top: 50px;
     border-radius: 25px;
 }
 .computer{
@@ -55,7 +55,7 @@ header{
     margin-left: 25px;
 }
 .tower{
-    height: 200px;
+    height: 150px;
     width: 800px;
     background: beige;
     position: absolute;
@@ -70,14 +70,14 @@ header{
     text-align: center;
     font-size: 20px;
     position: absolute;
-    top: 75px; left: 105px;
+    top: 55px; left: 105px;
     animation: power 8s;
     box-shadow: 0px 0px 50px lightskyblue;
 }
 .complogo{
     position: absolute;
     background: darkgray;
-    top: 70px; right: 80px;
+    top: 35px; right: 80px;
     font-size: 25px;
     padding: 10px;
 }
@@ -85,7 +85,7 @@ header{
     overflow: hidden;
     white-space: nowrap;
     width: 100%;
-    animation: type 4s steps(60, end);
+    animation: type 5s steps(60, end);
     animation-fill-mode: forwards;
     visibility: visible;
 }
@@ -102,22 +102,22 @@ header{
     overflow: hidden;
     white-space: nowrap;
     width: 100%;
-    animation: typethree 16s steps(60, end);
+    animation: typethree 24s steps(60, end);
 }
 .type4{
     overflow: hidden;
     white-space: nowrap;
     width: 100%;
-    animation: typethree 18s steps(60, end);
+    animation: typethree 26s steps(60, end);
 }
 .type5{
     overflow: hidden;
     white-space: nowrap;
     width: 100%;
-    animation: typethree 22s steps(60, end);
+    animation: typethree 28s steps(60, end);
 }
 .computer p + p{
-    animation: typetwo 8s steps(60, end);
+    animation: typetwo 12s steps(60, end);
 }
 .minicomp{
     background: #0D0D0D;
@@ -131,7 +131,14 @@ header{
     margin-top: 20px;
 }
 footer{
-    color: lime;
+   color: lime; 
+   text-align: center;
+   border-top: white solid thin;
+   border-bottom: white solid thin;
+}
+footer p{
+    font-size: 24px;
+    margin-bottom: 10px;
 }
 @keyframes lighting{
     0%{
@@ -186,8 +193,8 @@ button a:hover{
 .main {
     background: #0D0D0D;
     color: lime;
-    position: relative;
-    top: 200px;
+    /* position: relative; */
+    margin-top: 150px;
     border-top: thin solid white;
 }
 .main h2{
