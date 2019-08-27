@@ -5,6 +5,20 @@
    Black: #0D0D0D
    font-family: 'VT323', monospace;
    computer colors: #615a59, #b5adac, #99c9c2, #7b89ab  */
+@media (max-width: 767px){
+    .smalltext p{
+        text-align: center;
+    }
+    .type3{
+        font-size: 40px;
+    }
+    .type4{
+        font-size: 40px;
+    }
+    .type5{
+        font-size: 40px;
+    }
+}
 body{
     font-family: 'VT323', monospace;
     background: #0D0D0D;
@@ -54,7 +68,6 @@ header{
 .smalltext{
     font-size: 20px;
     color: lime;
-    
 }
 .computer p{
     margin-left: 25px;
