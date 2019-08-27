@@ -87,6 +87,7 @@ header{
     width: 100%;
     animation: type 4s steps(60, end);
     animation-fill-mode: forwards;
+    visibility: visible;
 }
 .firstline {
     position: absolute;
@@ -128,6 +129,9 @@ header{
     border: beige 5px solid;
     border-radius: 10px;
     margin-top: 20px;
+}
+footer{
+    color: lime;
 }
 @keyframes lighting{
     0%{
