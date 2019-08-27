@@ -51,6 +51,11 @@ header{
     border-radius: 20px;
     animation: lighting 8s;
 }
+.smalltext{
+    font-size: 20px;
+    color: lime;
+    
+}
 .computer p{
     margin-left: 25px;
 }
