@@ -48,8 +48,7 @@ header{
     background: silver;
     height: 600px;
     width: 990px;
-    margin-left: 200px;
-    margin-top: 50px;
+    margin: 50px auto 0;
     border-radius: 25px;
 }
 .computer{
@@ -76,8 +75,8 @@ header{
     height: 150px;
     width: 800px;
     background: beige;
-    position: absolute;
-    margin-left: 280px;
+    position: relative;
+    margin: 0 auto;
     border: darkgray 10px solid;
 }
 .powerbutton{
