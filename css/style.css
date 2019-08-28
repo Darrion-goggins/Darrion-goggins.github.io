@@ -43,7 +43,7 @@ header{
     position: sticky;
     border-bottom: thin solid white;
 }
-.screen{
+.computer{
     position: relative;
     background: silver;
     height: 600px;
@@ -51,7 +51,7 @@ header{
     margin: 50px auto 0;
     border-radius: 25px;
 }
-.computer{
+.screen{
     position: absolute;
     background: #0D0D0D;
     box-shadow: 0px 0px 20px lime;
@@ -68,7 +68,7 @@ header{
     font-size: 20px;
     color: lime;
 }
-.computer p{
+.screen p{
     margin-left: 25px;
 }
 .tower{
@@ -98,7 +98,7 @@ header{
     font-size: 25px;
     padding: 10px;
 }
-.computer p{
+.screen p{
     overflow: hidden;
     white-space: nowrap;
     width: 100%;
@@ -133,8 +133,21 @@ header{
     width: 100%;
     animation: typethree 28s steps(60, end);
 }
-.computer p + p{
+.screen p + p{
     animation: typetwo 12s steps(60, end);
+}
+.about{
+    color: lime;
+}
+.about h2{
+    text-align: center;
+    color: lime;
+}
+.about img{
+    border: lime thick solid;
+}
+.about p{
+    font-size: 25px;
 }
 .minicomp{
     background: #0D0D0D;
@@ -199,6 +212,7 @@ header p{
 button{
     margin-top: 25px;
     margin-left: 25px;
+    margin-bottom: 25px;
     background: lime;
 }
 button a{
