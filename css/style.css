@@ -9,14 +9,9 @@
     .smalltext p{
         text-align: center;
     }
-    .type3{
-        font-size: 40px;
-    }
-    .type4{
-        font-size: 40px;
-    }
-    .type5{
-        font-size: 40px;
+    .smalltype {
+        font-size: 25px;
+        list-style: none;
     }
 }
 body{
@@ -136,8 +131,14 @@ header{
 .screen p + p{
     animation: typetwo 12s steps(60, end);
 }
+.smalltype {
+    font-size: 25px;
+    list-style: none;
+    animation: mobiletype 10s steps(60, end);
+}
 .about{
     color: lime;
+    border-top: white solid thin;
 }
 .about h2{
     text-align: center;
@@ -170,6 +171,14 @@ footer p{
     font-size: 24px;
     margin-bottom: 10px;
 }
+@keyframes keystroke{
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
 @keyframes lighting{
     0%{
         box-shadow: none;
@@ -198,12 +207,17 @@ footer p{
 @keyframes typetwo{
     0%{width: 0;}
     50%{width: 0;}
-    100%{ width: 100; } 
+    100%{ width: 100;} 
 }
 @keyframes typethree{
     0%{width: 0;}
     50%{width: 0;}
     100%{width: 100;}
+}
+@keyframes mobiletype{
+    0%{width: 0;}
+    50%{width: 0;}
+    100%{ width: 100;} 
 }
 header p{
     margin-top: 20px;
@@ -237,12 +251,4 @@ button a:hover{
 .main span{
     margin-right: 10px;
     margin-top: 15px;
-}
-@keyframes keystroke{
-    50%{
-        opacity: 0;
-    }
-    100%{
-        opacity: 1;
-    }
 }
