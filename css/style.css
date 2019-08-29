@@ -164,20 +164,35 @@ header{
     background: #0D0D0D;
     border: beige 5px solid;
     border-radius: 10px;
+    padding: 5px;
 }
 .smallcomp{
     background: #0D0D0D;
     border: beige 5px solid;
     border-radius: 10px;
     margin-top: 20px;
+    padding: 5px;
+}
+button{
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    background: lime;
+    padding: 10px; 
+}
+button a{
+    color: #0D0D0D;
+}
+button a:hover{
+    color: #0D0D0D;
 }
 .codebutton{
     font-family: 'Libre Barcode 39', cursive;
-    margin-bottom: 5px;
+    font-size: 16px;
 }
-.codebutton:hover{
-    transition: left .2s;
+.codebutton a:hover{
     font-family: 'VT323', monospace;
+    font-size: 12px;
 }
 footer{
    color: lime; 
@@ -240,19 +255,6 @@ footer p{
 header p{
     margin-top: 20px;
     font-size: 30px;
-}
-button{
-    margin-top: 25px;
-    margin-left: 25px;
-    margin-bottom: 25px;
-    background: lime;
-    padding: 10px;
-}
-button a{
-    color: #0D0D0D;
-}
-button a:hover{
-    color: #0D0D0D;
 }
 .main {
     background: #0D0D0D;
