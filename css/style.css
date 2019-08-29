@@ -15,14 +15,11 @@
     }
 }
 @media (min-width:768px) and (max-width: 1023px) {
-    .firstline{
-        font-size: 20px;
+    .computer p{
+        font-size: 30px;
     }
-    .type2{
-        font-size: 20px;
-    }
-    .screen p{
-        font-size: 20px;
+    .computer li{
+        font-size: 30px;
     }
 }
 body{
@@ -31,6 +28,9 @@ body{
 }
 span{
     animation: keystroke 2s infinite;
+}
+.quote{
+    text-align: right;
 }
 .hero img{
     position: absolute;
@@ -171,6 +171,14 @@ header{
     border-radius: 10px;
     margin-top: 20px;
 }
+.codebutton{
+    font-family: 'Libre Barcode 39', cursive;
+    margin-bottom: 5px;
+}
+.codebutton:hover{
+    transition: left .2s;
+    font-family: 'VT323', monospace;
+}
 footer{
    color: lime; 
    text-align: center;
@@ -238,6 +246,7 @@ button{
     margin-left: 25px;
     margin-bottom: 25px;
     background: lime;
+    padding: 10px;
 }
 button a{
     color: #0D0D0D;
