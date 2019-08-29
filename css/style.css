@@ -14,18 +14,15 @@
         list-style: none;
     }
 }
-@media (min-width:768px) and (max-width: 1023px){
-    .computer{
-        max-width: 100%;
+@media (min-width:768px) and (max-width: 1023px) {
+    .firstline{
+        font-size: 20px;
     }
-    .screen{
-        max-width: 85%;
+    .type2{
+        font-size: 20px;
     }
     .screen p{
-        font-size: 30px;
-    }
-    .tower{
-        max-width: 100%;
+        font-size: 20px;
     }
 }
 body{
@@ -55,19 +52,17 @@ header{
 .computer{
     position: relative;
     background: silver;
-    height: 600px;
-    width: 990px;
+    height: 95%;
+    width: 95%;
     margin: 50px auto 0;
     border-radius: 25px;
+    padding: 50px;
 }
 .screen{
-    position: absolute;
     background: #0D0D0D;
     box-shadow: 0px 0px 20px lime;
-    height: 550px;
-    width: 890px;
-    top: 27px;
-    left: 53px;
+    height: 100%;
+    width: 100%;
     color: lime;
     font-size: 45px;
     border-radius: 20px;
@@ -78,11 +73,12 @@ header{
     color: lime;
 }
 .screen p{
-    margin-left: 25px;
+    margin: auto;
+    margin-left: 15px;
 }
 .tower{
     height: 150px;
-    width: 800px;
+    width: 75%;
     background: beige;
     position: relative;
     margin: 0 auto;
@@ -117,7 +113,7 @@ header{
 }
 .firstline {
     position: absolute;
-    top: 0;left: 0;
+    margin: auto;
 }
 .type2{
     overflow: hidden;
