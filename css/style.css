@@ -259,7 +259,6 @@ header p{
 .main {
     background: #0D0D0D;
     color: lime;
-    /* position: relative; */
     margin-top: 150px;
     border-top: thin solid white;
 }
