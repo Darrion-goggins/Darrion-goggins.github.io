@@ -111,6 +111,12 @@ header{
     animation-fill-mode: forwards;
     visibility: visible;
 }
+.windmills p{
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 23px;
+    position: absolute;
+}
 .firstline {
     position: absolute;
     margin: auto;
