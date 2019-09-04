@@ -29,6 +29,10 @@ body{
 span{
     animation: keystroke 2s infinite;
 }
+header p{
+    margin-top: 20px;
+    font-size: 30px;
+}
 .quote{
     text-align: right;
 }
@@ -264,8 +268,4 @@ footer p{
     0%{width: 0;}
     50%{width: 0;}
     100%{ width: 100;} 
-}
-header p{
-    margin-top: 20px;
-    font-size: 30px;
 }
