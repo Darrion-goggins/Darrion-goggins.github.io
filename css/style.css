@@ -191,14 +191,6 @@ button a{
 button a:hover{
     color: #0D0D0D;
 }
-.codebutton{
-    font-family: 'Libre Barcode 39', cursive;
-    font-size: 16px;
-}
-.codebutton a:hover{
-    font-family: 'VT323', monospace;
-    font-size: 12px;
-}
 footer{
    color: lime; 
    text-align: center;
