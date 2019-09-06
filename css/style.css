@@ -33,6 +33,7 @@ header p{
     margin-top: 20px;
     font-size: 30px;
 }
+/* Heading */
 .quote{
     text-align: right;
 }
@@ -53,6 +54,7 @@ header{
     position: sticky;
     border-bottom: thin solid white;
 }
+/* Meat and potatoes */
 .computer{
     position: relative;
     background: silver;
@@ -155,6 +157,7 @@ header{
     list-style: none;
     animation: mobiletype 10s steps(60, end);
 }
+/* Meat and potatoes END */
 .about{
     color: lime;
     border-top: white solid thin;
@@ -169,6 +172,7 @@ header{
 .about p{
     font-size: 25px;
 }
+/* Main (minicomputers) */
 .main {
     background: #0D0D0D;
     color: lime;
@@ -198,6 +202,17 @@ header{
     margin-top: 20px;
     padding: 5px;
 }
+/* Footer and Contact Information */
+footer{
+    color: lime; 
+    text-align: center;
+    border-top: white solid thin;
+    border-bottom: white solid thin;
+ }
+ footer p{
+     font-size: 24px;
+     margin-bottom: 10px;
+ }
 button{
     margin-top: 25px;
     margin-left: 25px;
@@ -211,16 +226,8 @@ button a{
 button a:hover{
     color: #0D0D0D;
 }
-footer{
-   color: lime; 
-   text-align: center;
-   border-top: white solid thin;
-   border-bottom: white solid thin;
-}
-footer p{
-    font-size: 24px;
-    margin-bottom: 10px;
-}
+
+/* Animations */
 @keyframes keystroke{
     50%{
         opacity: 0;
