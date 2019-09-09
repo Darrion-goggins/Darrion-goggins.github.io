@@ -44,14 +44,14 @@ header p{
     position: absolute;
 }
 a{
-    color: lime;
+    color: #00FF00;
 }
 a:hover{
-    color: lime;
+    color: #00FF00;
     text-decoration: none;
 }
 header{
-    color: lime;
+    color: #00FF00;
     background: #0D0D0D;
     font-size: 25px;
     position: sticky;
@@ -69,17 +69,17 @@ header{
 }
 .screen{
     background: #0D0D0D;
-    box-shadow: 0px 0px 20px lime;
+    box-shadow: 0px 0px 20px #00FF00;
     height: 100%;
     width: 100%;
-    color: lime;
+    color: #00FF00;
     font-size: 45px;
     border-radius: 20px;
     animation: lighting 8s;
 }
 .smalltext{
     font-size: 20px;
-    color: lime;
+    color: #00FF00;
 }
 .screen p{
     margin: auto;
@@ -88,16 +88,16 @@ header{
 .tower{
     height: 150px;
     width: 75%;
-    background: beige;
+    background: #f5f5dc;
     position: relative;
     margin: 0 auto;
-    border: darkgray 10px solid;
+    border: #DCDCDC 10px solid;
 }
 .powerbutton{
     height: 30px;
     width: 30px;
     border-radius: 50%;
-    background: darkgray;
+    background: #DCDCDC;
     text-align: center;
     font-size: 20px;
     position: absolute;
@@ -105,7 +105,7 @@ header{
 }
 .complogo{
     position: absolute;
-    background: darkgray;
+    background: #DCDCDC;
     top: 35px; right: 80px;
     font-size: 25px;
     padding: 10px;
@@ -160,15 +160,15 @@ header{
 }
 /* Meat and potatoes END */
 .about{
-    color: lime;
+    color: #00FF00;
     border-top: white solid thin;
 }
 .about h2{
     text-align: center;
-    color: lime;
+    color: #00FF00;
 }
 .about img{
-    border: lime thick solid;
+    border: #00FF00 thick solid;
 }
 .about p{
     font-size: 25px;
@@ -176,7 +176,7 @@ header{
 /* Main (minicomputers) */
 .main {
     background: #0D0D0D;
-    color: lime;
+    color: #00FF00;
     margin-top: 150px;
     border-top: thin solid white;
 }
@@ -192,20 +192,20 @@ header{
 }
 .minicomp{
     background: #0D0D0D;
-    border: beige 5px solid;
+    border: #f5f5dc 5px solid;
     border-radius: 10px;
     padding: 5px;
 }
 .smallcomp{
     background: #0D0D0D;
-    border: beige 5px solid;
+    border: #f5f5dc 5px solid;
     border-radius: 10px;
     margin-top: 20px;
     padding: 5px;
 }
 /* Footer and Contact Information */
 footer{
-    color: lime; 
+    color: #00FF00; 
     text-align: center;
     border-top: white solid thin;
     border-bottom: white solid thin;
@@ -215,7 +215,7 @@ footer{
      margin-bottom: 10px;
  }
  .button{
-    background: lime;
+    background: #00FF00;
     color: #0D0D0D;
     height: 35px;
     width: 120px;
@@ -224,7 +224,7 @@ footer{
     display: block;
     text-align: center;
     margin-top: 10px;
-    border: beige 2px solid;
+    border: #f5f5dc 2px solid;
     border-radius: 5px;
  }
  .button:hover{
@@ -245,13 +245,13 @@ footer{
         box-shadow: none;
     }
     25%{
-        box-shadow: 0px 0px 50px lime;
+        box-shadow: 0px 0px 50px #00FF00;
     }
     50%{
         box-shadow: none;
     }
     100%{
-        box-shadow: 0px 0px150px lime;
+        box-shadow: 0px 0px150px #00FF00;
     }
 }
 @keyframes type{
