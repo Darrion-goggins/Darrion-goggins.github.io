@@ -5,7 +5,10 @@
    Black: #0D0D0D
    font-family: 'VT323', monospace;
    computer colors: #615a59, #b5adac, #99c9c2, #7b89ab  */
-@media (max-width: 767px){
+html{
+    scroll-behavior: smooth;
+}
+   @media (max-width: 767px){
     .smalltext p{
         text-align: center;
     }
