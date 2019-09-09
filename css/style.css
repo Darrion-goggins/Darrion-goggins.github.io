@@ -275,3 +275,19 @@ footer{
     50%{width: 0;}
     100%{ width: 100;} 
 }
+@keyframes undo{
+    0%{
+        transform:rotate(0deg);
+    }
+    50%{
+        transform:rotate(-360deg);
+        border-radius: 0%;
+        background: white;
+        border: orange solid 2px;
+    }
+    100%{
+        transform: rotate(360deg);
+        background: orange;
+        border: white solid 2px;
+    }
+}
