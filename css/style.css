@@ -55,7 +55,7 @@ header{
     background: #0D0D0D;
     font-size: 25px;
     position: sticky;
-    border-bottom: thin solid white;
+    border-bottom: thin solid #ffffff;
 }
 /* Meat and potatoes */
 .computer{
@@ -161,7 +161,7 @@ header{
 /* Meat and potatoes END */
 .about{
     color: #00FF00;
-    border-top: white solid thin;
+    border-top: #ffffff solid thin;
 }
 .about h2{
     text-align: center;
@@ -178,7 +178,7 @@ header{
     background: #0D0D0D;
     color: #00FF00;
     margin-top: 150px;
-    border-top: thin solid white;
+    border-top: #ffffff thin solid;
 }
 .main h2{
     text-align: center;
@@ -207,8 +207,8 @@ header{
 footer{
     color: #00FF00; 
     text-align: center;
-    border-top: white solid thin;
-    border-bottom: white solid thin;
+    border-top: #ffffff solid thin;
+    border-bottom: #ffffff solid thin;
  }
  footer p{
      font-size: 24px;
