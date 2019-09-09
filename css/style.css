@@ -216,19 +216,22 @@ footer{
      font-size: 24px;
      margin-bottom: 10px;
  }
-button{
-    margin-top: 25px;
-    margin-left: 25px;
-    margin-bottom: 25px;
+ .button{
     background: lime;
-    padding: 10px; 
-}
-button a{
     color: #0D0D0D;
-}
-button a:hover{
-    color: #0D0D0D;
-}
+    height: 35px;
+    width: 120px;
+    padding: 10px;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    border: beige 2px solid;
+    border-radius: 5px;
+ }
+ .button:hover{
+     color: #0D0D0D;
+ }
 
 /* Animations */
 @keyframes keystroke{
