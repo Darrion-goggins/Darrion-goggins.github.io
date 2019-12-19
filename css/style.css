@@ -201,14 +201,13 @@ header{
     border: #f5f5dc 5px solid;
     border-radius: 10px;
     margin-top: 20px;
-    height: 30%;
-    width: 30%;
     padding: 5px;
 } 
 /* Secondary */
 .secondary{
     color: #00FF00;
     text-align: center;
+    border-top: #ffffff solid thin;
 }
 /* Footer and Contact Information */
 footer{
