@@ -196,6 +196,7 @@ header{
     border-radius: 10px;
     padding: 5px;
     margin-bottom: 30px;
+    margin: auto;
 }
 .smallcomp{
     background: #0D0D0D;
@@ -203,7 +204,14 @@ header{
     border-radius: 10px;
     margin-top: 20px;
     padding: 5px;
-} 
+}
+.smallcomp h3{
+    margin-top: 25px;
+}
+#project_type{
+    border-bottom: #ffffff thin solid;
+    margin-bottom: 15px;
+}
 /* Secondary */
 .secondary{
     color: #00FF00;
@@ -216,12 +224,12 @@ footer{
     text-align: center;
     border-top: #ffffff solid thin;
     border-bottom: #ffffff solid thin;
- }
- footer p{
-     font-size: 24px;
-     margin-bottom: 10px;
- }
- .button{
+}
+footer p{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.button{
     background: #00FF00;
     color: #0D0D0D;
     height: 35px;
@@ -233,10 +241,10 @@ footer{
     margin-top: 10px;
     border: #f5f5dc 2px solid;
     border-radius: 5px;
- }
- .button:hover{
-     color: #0D0D0D;
- }
+}
+.button:hover{
+    color: #0D0D0D;
+}
 
 /* Animations */
 @keyframes keystroke{
