@@ -1,10 +1,3 @@
-/* Dark Blue: #4C6173
-   Light Blue: #8AA6BF
-   Sky Blue: #CEE1F2
-   Gray Blue: #2D3940
-   Black: #0D0D0D
-   font-family: 'VT323', monospace;
-   computer colors: #615a59, #b5adac, #99c9c2, #7b89ab  */
 html{
     scroll-behavior: smooth;
 }
@@ -28,9 +21,6 @@ html{
 body{
     font-family: 'VT323', monospace;
     background: #0D0D0D;
-}
-span{
-    animation: keystroke 2s infinite;
 }
 header p{
     margin-top: 20px;
@@ -67,96 +57,18 @@ header{
     border-radius: 25px;
     padding: 50px;
 }
-.screen{
-    background: #0D0D0D;
-    box-shadow: 0px 0px 20px #00FF00;
-    height: 100%;
-    width: 100%;
+.navbar{
+    text-align: center;
     color: #00FF00;
     font-size: 45px;
-    border-radius: 20px;
-    animation: lighting 8s;
+    padding: 30px;
 }
-.smalltext{
-    font-size: 20px;
-    color: #00FF00;
-}
-.screen p{
-    margin: auto;
-    margin-left: 15px;
-}
-.tower{
-    height: 150px;
-    width: 75%;
-    background: #f5f5dc;
-    position: relative;
-    margin: 0 auto;
-    border: #DCDCDC 10px solid;
-}
-.powerbutton{
-    height: 30px;
-    width: 30px;
-    border-radius: 50%;
-    background: #DCDCDC;
-    text-align: center;
-    font-size: 20px;
-    position: absolute;
-    top: 55px; left: 105px;
-}
-.complogo{
-    position: absolute;
-    background: #DCDCDC;
-    top: 35px; right: 80px;
-    font-size: 25px;
-    padding: 10px;
-}
-.screen p{
-    overflow: hidden;
-    white-space: nowrap;
-    width: 100%;
-    animation: type 5s steps(60, end);
-    animation-fill-mode: forwards;
-    visibility: visible;
-}
-/* .windmills p{
-    overflow: hidden;
-    white-space: nowrap;
-    font-size: 23px;
-} */
-.firstline {
-    position: absolute;
-    margin: auto;
-}
-.type2{
-    overflow: hidden;
-    white-space: nowrap;
-    width: 100%;
-}
-.type3{
-    overflow: hidden;
-    white-space: nowrap;
-    width: 100%;
-    animation: typethree 24s steps(60, end);
-}
-.type4{
-    overflow: hidden;
-    white-space: nowrap;
-    width: 100%;
-    animation: typethree 26s steps(60, end);
-}
-.type5{
-    overflow: hidden;
-    white-space: nowrap;
-    width: 100%;
-    animation: typethree 28s steps(60, end);
-}
-.screen p + p{
-    animation: typetwo 12s steps(60, end);
-}
-.smalltype {
-    font-size: 25px;
+.navbar ul{
     list-style: none;
-    animation: mobiletype 10s steps(60, end);
+    padding: 0;
+}
+.navbar li{
+    display: inline;
 }
 /* Meat and potatoes END */
 .about{
@@ -244,65 +156,4 @@ footer p{
 }
 .button:hover{
     color: #0D0D0D;
-}
-
-/* Animations */
-@keyframes keystroke{
-    50%{
-        opacity: 0;
-    }
-    100%{
-        opacity: 1;
-    }
-}
-@keyframes lighting{
-    0%{
-        box-shadow: none;
-    }
-    25%{
-        box-shadow: 0px 0px 50px #00FF00;
-    }
-    50%{
-        box-shadow: none;
-    }
-    100%{
-        box-shadow: 0px 0px150px #00FF00;
-    }
-}
-@keyframes type{
-    from{width: 0;}
-    100%{
-        opacity: 0;
-    }
-}
-@keyframes typetwo{
-    0%{width: 0;}
-    50%{width: 0;}
-    100%{ width: 100;} 
-}
-@keyframes typethree{
-    0%{width: 0;}
-    50%{width: 0;}
-    100%{width: 100;}
-}
-@keyframes mobiletype{
-    0%{width: 0;}
-    50%{width: 0;}
-    100%{ width: 100;} 
-}
-@keyframes undo{
-    0%{
-        transform:rotate(0deg);
-    }
-    50%{
-        transform:rotate(-360deg);
-        border-radius: 0%;
-        background: white;
-        border: orange solid 2px;
-    }
-    100%{
-        transform: rotate(360deg);
-        background: orange;
-        border: white solid 2px;
-    }
 }
